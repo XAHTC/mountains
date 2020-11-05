@@ -330,6 +330,10 @@
     display: flex;
     flex-direction: column;
     max-width: 550px;
+
+    @media (max-width: $md4+px) {
+      max-width: 260px;
+    }
   }
 
   &__top {
@@ -442,6 +446,10 @@
   padding-bottom: 60px;
   background: #0B1D26;
 
+  @media (max-width: $md3+px) {
+    padding-bottom: 20px;
+  }
+
   &__container {
     max-width: 1200px;
     width: 100%;
@@ -453,6 +461,10 @@
     width: 100%;
     max-width: 1000px;
     flex-wrap: wrap;
+
+    @media (max-width: $md4+px) {
+      max-width: 270px;
+    }
   }
 
   &__column {
@@ -491,7 +503,8 @@
     max-width: 320px;
 
     @media (max-width: $md3+px) {
-      margin-bottom: 40px;
+      margin: 12px 0 20px;
+      font-size: 0.9rem;
     }
   }
 
@@ -529,6 +542,10 @@
     font-size: 1.1rem;
     line-height: 30px;
     position: relative;
+
+    @media (max-width: $md3+px) {
+      font-size: 0.9em;
+    }
 
     &::after {
       content: "";

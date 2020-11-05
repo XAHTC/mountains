@@ -543,6 +543,12 @@ table {
   max-width: 550px;
 }
 
+@media (max-width: 479.98px) {
+  .info__block {
+    max-width: 260px;
+  }
+}
+
 .info__top {
   max-width: 270px;
 }
@@ -666,6 +672,12 @@ table {
   background: #0B1D26;
 }
 
+@media (max-width: 767.98px) {
+  .footer {
+    padding-bottom: 20px;
+  }
+}
+
 .footer__container {
   max-width: 1200px;
   width: 100%;
@@ -680,6 +692,12 @@ table {
   max-width: 1000px;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+}
+
+@media (max-width: 479.98px) {
+  .footer__row {
+    max-width: 270px;
+  }
 }
 
 .footer__column {
@@ -736,7 +754,8 @@ table {
 
 @media (max-width: 767.98px) {
   .footer__text {
-    margin-bottom: 40px;
+    margin: 12px 0 20px;
+    font-size: 0.9rem;
   }
 }
 
@@ -776,6 +795,12 @@ table {
   font-size: 1.1rem;
   line-height: 30px;
   position: relative;
+}
+
+@media (max-width: 767.98px) {
+  .footer__link {
+    font-size: 0.9em;
+  }
 }
 
 .footer__link::after {
