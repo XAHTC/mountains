@@ -59,6 +59,11 @@ table {
           box-sizing: border-box;
 }
 
+@font-face {
+  font-family: Poppins;
+  src: url("../fonts/Poppins-Medium.ttf") format("truetype");
+}
+
 .wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -354,7 +359,12 @@ table {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  max-width: 295px;
+}
+
+@media (max-width: 321px) {
+  .hero__row {
+    max-width: 295px;
+  }
 }
 
 .social {

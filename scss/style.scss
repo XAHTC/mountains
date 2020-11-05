@@ -202,7 +202,10 @@
   &__row {
     width: 100%;
     display: flex;
-    max-width: 295px;
+    
+    @media (max-width: 321px) {
+      max-width: 295px;
+    }
   }
 }
 .social {
