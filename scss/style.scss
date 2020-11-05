@@ -1,8 +1,5 @@
 @import "reset";
 @import "settings";
-@import "header";
-@import "content";
-@import "footer";
 
 .s1,
 .s2,
@@ -10,9 +7,12 @@
 .s4 {
   width: 100%;
   height: 100vh;
-  background: url("../img/bg_hero.webp") no-repeat;
   background-size: cover;
   position: relative;
+}
+
+.s1 {
+  background: linear-gradient(330.24deg, rgba(11, 29, 38, 0) 31.06%, #0B1D26 108.93%);
 }
 
 .s2 {
@@ -204,7 +204,6 @@
     display: flex;
 
     @media (max-width: 321px) {
-      max-width: 295px;
     }
   }
 }
